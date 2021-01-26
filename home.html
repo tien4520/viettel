@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="assets/dist/css/style.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <title>Viettel</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="assets/image/logo-viettel.jpg" alt="">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto row">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Về Viettel
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Giải pháp
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Phát triển bền vững
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Nghề nghiệp
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Tin tức
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Liên hệ</a>
+          </li>
+          <form class="form-inline my-2 my-lg-0">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-append">
+                <button class="btn" type="submit">Go</button>
+              </div>
+            </div>
+          </form>
+          <li class="nav-item dropdown">
+            <button type="button" class="btn btn-outline-danger" data-toggle="dropdown">
+              Vn.
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Englisg</a>
+              <a class="dropdown-item" href="#">Tiếng Việt</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <img src="assets/image/banner-viettel.jpg" class="img-header">
+  </header>
+  <section class="sections" ng-switch="sectionType" ng-repeat="section in pageData.field_sections.und"
+    section-type="text" page-data="pageData">
+    <a id="rebranding"></a>
+    <div class="section-text" ng-switch-when="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12">
+            <div>
+              <h3 class="section-title" style="font-size: 38px">
+                Tái định vị thương hiệu
+              </h3>
+              <div style="text-align: justify">
+                <span style="font-size: 20px"><span style="font-size: 16px">Ngày 07/01/2021, Viettel công bố tái định vị
+                    thương hiệu
+                    nhằm thúc đẩy mạnh mẽ chiến lược chuyển dịch từ nhà cung
+                    cấp dịch vụ viễn thông trở thành nhà cung cấp dịch vụ
+                    số.<br /><br />Hơn 15 năm cung cấp dịch vụ viễn thông, từ
+                    khi mật độ điện thoại di động của Việt Nam chỉ chiếm 5%,
+                    đến nay, sứ mệnh phổ cập viễn thông đến người dân Việt Nam
+                    của Viettel đã hoàn thành. Trong giai đoạn phát triển tiếp
+                    theo của mình, Viettel xác định sứ mệnh “Tiên phong kiến
+                    tạo xã hội số bằng sức mạnh đến từ sự cộng hưởng”.<br /><br />Thay
+                    đổi nhận diện thương hiệu như một lời cam kết mạnh mẽ,
+                    quyết tâm từ ngay chính nội bộ của Viettel, để đưa công
+                    nghệ số vào mọi lĩnh vực của đời sống, phục vụ con người
+                    và kiến tạo nên một xã hội số ở Việt Nam.<br /><br />Cùng
+                    theo dõi sự kiện ra mắt nhận diện thương hiệu mới của
+                    Viettel để hiểu hơn về định vị thương hiệu Viettel.</span></span><br /><br /><iframe
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen="" src="https://www.youtube.com/embed/yWy0ETNJhZI"
+                  style="display: block; width: 100%; height: 75vh" frameborder="0"></iframe><br /><a
+                  href="https://yourway.viettel.vn/"><span class="btn btn-action red">Tìm hiểu thêm</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sections" ng-switch="sectionType" ng-repeat="section in pageData.field_sections.und"
+    section-data="section.target" section-type="about_us" page-data="pageData">
+    <a id="about-us-vn"></a>
+    <div class="section-about-us" ng-switch-when="about_us">
+      <div class="container orange-box">
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1">
+            <div class="row about-us">
+              <div class="col-xs-12 col-sm-8">
+                <div class="about-us-title pull-left" ng-bind="sectionData.field_title.und[0].value">
+                  Về chúng tôi
+                </div>
+                <div class="about-us-description pull-left" ng-bind="sectionData.field_subtitle.und[0].value">
+                  Luôn đi đầu trong đổi mới và sáng tạo. Lắng nghe và thấu
+                  hiểu khách hàng để đem đến những dịch vụ tốt nhất.
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <div class="about-us-cta pull-right" compile="sectionData.field_call_to_action.und[0].safe_value">
+                  <p>
+                    <a href="http://viettel.com.vn/sites/default/files/profile_mwc2018_view_0.pdf" target="_blank"><span
+                        class="btn btn-action white">Tìm hiểu thêm về chúng tôi</span></a>
+                  </p>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <div class="row about-us-stats">
+              <div class="col-xs-12 col-sm-4" compile="sectionData.field_three_column_texts.und[0].safe_value">
+                <h4 class="statistics">
+                  <span style="color: #ffffff">
+                    <div class="font">
+                      <span style="line-height: 26.4px"><strong>110.000.000+</strong><br />khách hàng tại 11 nước&nbsp;
+                      </span>
+                    </div>
+                  </span>
+                </h4>
+              </div>
+              <div class="col-xs-12 col-sm-4" compile="sectionData.field_three_column_texts.und[1].safe_value">
+                <h4 class="statistics">
+                  <div class="font" color="#ffffff">
+                    <span style="line-height: 26.4px"><strong>39.000+ tỷ đồng</strong><br />lợi nhuận trước
+                      thuế năm 2019
+                    </span>
+                  </div>
+                </h4>
+              </div>
+              <div class="col-xs-12 col-sm-4" compile="sectionData.field_three_column_texts.und[2].safe_value">
+                <h4 class="statistics">
+                  <span style="
+                        color: rgb(255, 255, 255);
+                        font-family: inherit;
+                        line-height: 1.1;
+                      ">
+                    <strong>251.000+ tỷ đồng</strong><br />tổng doanh thu năm
+                    2019
+                  </span>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sections" ng-switch="sectionType" ng-repeat="section in pageData.field_sections.und"
+    section-data="section.target" section-type="cards" page-data="pageData">
+    <a id="viettels-solutions-vn"></a>
+    <div class="section-cards" ng-switch-when="cards">
+      <div class="container">
+        <div class="text-holder" compile="sectionData.field_text.und[0].safe_value"
+          ng-if="sectionData.field_text.und[0].safe_value">
+          <h3 class="section-title" style="font-size: 38px">
+            Sản phẩm &amp; Dịch vụ
+          </h3>
+          <p style="text-align: justify">
+            Với sứ mệnh sáng tạo để phục vụ con người, các sản phẩm của
+            Viettel là kết quả của quá trình sáng tạo ra các sản phẩm, dịch vụ
+            nhằm phục vụ cuộc sống của khách hàng ngày một tốt đẹp hơn. Mỗi
+            khách hàng là một cá thể có những nhu cầu khác nhau. Vì vậy,
+            Viettel đang nỗ lực không ngừng nghỉ để đưa ra giải pháp đáp ứng
+            tối đa những nhu cầu ấy với sự thấu hiểu và quyết tâm cao.
+          </p>
+          <p style="text-align: justify">
+            Viettel luôn trân trọng và đánh giá cao những nhận xét, phản hồi
+            của khách hàng để sản phẩm và dịch vụ của chúng tôi được cải
+            thiện, tốt lên từng ngày.&nbsp;
+          </p>
+        </div>
+        <div class="row">
+          <div class="card col-xs-12 col-sm-6" ng-repeat="card in sectionData.field_cards.und"
+            ng-switch="card.target.type">
+            <div ng-switch-when="image_card" class="image-card">
+              <div class="image"
+                ng-style="{backgroundImage: (card.target.field_image.und[0].uri | publicPath | imageStyle:'card' | url)}"
+                style="
+                    background-image: url('assets/image/vtt_6764_4.jpg');
+                  "></div>
+              <div class="text" compile="card.target.field_text.und[0].safe_value">
+                <h5>Khách hàng cá nhân</h5>
+                <p>&nbsp;</p>
+                <p>
+                  <a href="/vi/giai-phap#Solutions-customer-services-vn"><span class="btn btn-action">Xem
+                      thêm</span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-xs-12 col-sm-6" ng-repeat="card in sectionData.field_cards.und"
+            ng-switch="card.target.type">
+            <div ng-switch-when="image_card" class="image-card">
+              <div class="image"
+                ng-style="{backgroundImage: (card.target.field_image.und[0].uri | publicPath | imageStyle:'card' | url)}"
+                style="
+                    background-image: url('assets/image/khdn_4.jpg');
+                  "></div>
+              <div class="text" compile="card.target.field_text.und[0].safe_value">
+                <h5>
+                  <span style="line-height: 1.2em">Khách hàng doanh nghiệp&nbsp;</span>
+                </h5>
+                <h5>&nbsp;</h5>
+                <p>
+                  <a href="/vi/giai-phap#Solutions-enterprise-services-vn"><span class="btn btn-action"
+                      style="line-height: 1.42857">Xem thêm</span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-xs-12 col-sm-6" ng-repeat="card in sectionData.field_cards.und"
+            ng-switch="card.target.type">
+            <div ng-switch-when="image_card" class="image-card">
+              <div class="image"
+                ng-style="{backgroundImage: (card.target.field_image.und[0].uri | publicPath | imageStyle:'card' | url)}"
+                style="
+                    background-image: url('assets/image/dscf4584_1.jpg');
+                  "></div>
+              <div class="text" compile="card.target.field_text.und[0].safe_value">
+                <h5>Cơ quan Chính phủ&nbsp;</h5>
+                <p>&nbsp;</p>
+                <p>
+                  <a href="/vi/giai-phap#Solutions-government-services-vn"><span class="btn btn-action"
+                      style="line-height: 1.42857">Xem thêm</span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-xs-12 col-sm-6">
+            <div ng-switch-when="text_card" class="text-card">
+              <h3>
+                <span style="color: #ff0000"><span style="
+                        font-family: inherit;
+                        font-size: 20px;
+                        line-height: 1.3em;
+                      ">Cung cấp dịch vụ tới <strong>hơn 110.000.000</strong><br />khách hàng&nbsp;</span></span>
+              </h3>
+              <p>
+                <a href="http://viettel.com.vn/vi/giai-phap" target="_self"><span class="btn btn-action">&nbsp;Các sản
+                    phẩm của Viettel&nbsp;</span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sections" ng-switch="sectionType" ng-repeat="section in pageData.field_sections.und"
+    section-data="section.target" section-type="two_columns" page-data="pageData">
+    <a id="sustainability-vn"></a>
+    <div class="section-two-columns" ng-switch-when="two_columns">
+      <div class="container">
+        <div class="row">
+          <div ng-class="leftClass()" class="col-xs-12 left-column col-sm-6"
+            compile="sectionData.field_two_column_texts.und[0].safe_value">
+            <div class="section-title">
+              <h3 class="section-title" style="font-size: 38px">
+                Phát triển bền vững
+              </h3>
+              <div style="text-align: justify">
+                <span style="font-size: 24px"><em>“ Nền tảng cho sự phát triển của doanh nghiệp là một xã
+                    hội bền vững. Vì vậy, doanh nghiệp có trách nhiệm trích
+                    một phần lợi nhuận của mình đóng góp lại cho xã
+                    hội".&nbsp;</em></span>
+              </div>
+              <div>&nbsp;</div>
+              <p style="text-align: justify">
+                <span style="line-height: 1.7em">Ngay từ những ngày đầu bước&nbsp;chân vào thị trường viễn
+                  thông, Viettel đã viết vào triết lý kinh doanh của mình như
+                  vậy. Và trong suốt hơn một thập kỷ qua, Viettel đã nỗ lực,
+                  bằng nhiều cách khác nhau, đóng góp quay trở lại cho xã hội,
+                  như một lời cảm ơn.&nbsp;</span>
+              </p>
+            </div>
+            <p>
+              <a href="http://viettel.com.vn/vi/phat-trien-ben-vung" target="_self"><span class="btn btn-action">Xem
+                  thêm</span></a>
+            </p>
+            <p>&nbsp;</p>
+          </div>
+          <div ng-class="rightClass()" class="col-xs-12 right-column col-sm-6"
+            compile="sectionData.field_two_column_texts.und[1].safe_value">
+            <br /><br /><br /><img alt=""
+              src="https://cdnvtfamily.keeng.net/uploads/viettelfamily/310/viettel-com-vn/abc-9788-v2.jpg"
+              style="width: 555px; height: 497px" /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sections" ng-switch="sectionType" ng-repeat="section in pageData.field_sections.und"
+    section-data="section.target" section-type="two_columns" page-data="pageData">
+    <a id="Hanh trinh VTJ"></a>
+    <div class="section-two-columns" ng-switch-when="two_columns">
+      <div class="container">
+        <div class="row">
+          <div ng-class="leftClass()" class="col-xs-12 left-column col-sm-6"
+            compile="sectionData.field_two_column_texts.und[0].safe_value">
+            <p>
+              <img alt=""
+                src="https://cdnvtfamily.keeng.net/uploads/viettelfamily/310/viettel-com-vn/21-10-viettel-la-doanh-nghi-p-vi-t-nam-d-t-du-c-nhi-u-gi-i-thu-ng-nh-t-t-i-stevie-awards-2019-0.jpg"
+                style="width: 515px; height: 412px" />
+            </p>
+            <p>&nbsp;</p>
+          </div>
+          <div ng-class="rightClass()" class="col-xs-12 right-column col-sm-6"
+            compile="sectionData.field_two_column_texts.und[1].safe_value">
+            <h3 class="section-title" style="font-size: 38px">Các giải thưởng Quốc tế của Viettel</h3>
+            <p style="text-align: justify">
+              <span style="font-size: 14px">Với sứ mệnh: "Sáng tạo vì con người", Viettel coi khách hàng
+                là những cá thể riêng biệt, cần được tôn trọng, quan tâm, lắng
+                nghe, thấu hiểu và được phục vụ một cách riêng biệt. Chính vì
+                vậy, Viettel liên tục đổi mới. Chúng tôi cùng với khách hàng,
+                sáng tạo ra những sản phẩm, dịch vụ ngày càng chất lượng và
+                hoàn hảo.</span>
+            </p>
+            <p style="text-align: justify">
+              <span style="font-size: 14px">Những giải thưởng Quốc tế là sự ghi nhận nỗ lực của Viettel
+                trong việc tìm ra và cung cấp các giải pháp cho mọi lĩnh vực
+                trong cuộc sống như: Y tế, Công nghệ thông tin, Giáo dục, Viễn
+                thông,... Từ đó, chúng tôi mong muốn đem lại những điều tốt
+                đẹp nhất cho khách hàng.</span>
+            </p>
+            <p>
+              <a href="http://viettel.com.vn/vi/cac-giai-thuong-quoc-te-cua-viettel"><span class="btn btn-action">Các
+                  giải thưởng Quốc tế&nbsp;</span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sections">
+    <a id="latest-news-vn"></a>
+    <div class="section-two-columns" ng-switch-when="two_columns">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 left-column col-sm-6">
+            <h3 class="section-title" style="font-size: 38px">Tin mới nhất</h3>
+            <p>Cập nhật những thông tin, hình ảnh mới nhất về sản xuất, kinh doanh, đầu tư cũng như các hoạt động xã hội
+              của Viettel tại Việt Nam và trên toàn thế giới.</p>
+            <p>&nbsp;</p>
+            <p>
+              <a href="http://viettel.com.vn/vi/tin-tuc">
+                <span class="btn btn-action">Tin về Viettel
+                </span>
+              </a>
+            </p>
+          </div>
+          <div class="col-xs-12 right-column col-sm-3">
+            <div class="card card-news">
+              <div class="card-body">
+                <img src="assets/image/viettel_van_giu_vung_da_tang_truong.jpg" style="width:100%">
+                <p class="date-news">11/01/2021</p>
+                <a href="#" class="link-new">Chuyển đổi số là căn nguyên tăng trưởng của Viettel
+                </a>
+                <p>
+                  Vừa qua, sau khi công bố tái định vị thương hiệu,
+                  Tập đoàn Công nghiệp - Viễn thông Quân đội (Viettel) đã tổ chức Hội nghị Tổng kết năm 2020.
+                </p>
+                <button class="btn btn-news">Đọc thêm</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 right-column col-sm-3">
+            <div class="card card-news">
+              <div class="card-body">
+                <img src="assets/image/su_menh_cua_viettel_la_kien_tao_xa_hoi_so.jpg" style="width:100%">
+                <p class="date-news">07/01/20212</p>
+                <a href="#" class="link-new">Viettel công bố nhận diện thương hiệu mới với sứ mệnh kiến tạo xã hội
+                  số</a>
+                <p>
+                  Ngày 7/1/2021, Tập đoàn Công nghiệp – Viễn thông Quân đội (Viettel) đã công bố tái định vị thương hiệu
+                  Viettel,
+                  với bộ nhận diện gồm logo và slogan…
+                </p>
+                <button class="btn btn-news">Đọc thêm</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><span ng-bind="sectionType"></span>
+  </section>
+  </section>
+  <footer class="site-footer" ng-if="pageData" style="">
+    <div class="container">
+      <div class="row footer-row">
+        <div class="footer-brand">
+          <img title="Viettel-logo" src="assets/image/logo-viettel.jpg">
+        </div>
+        <ul class="list-subpages list-inline">
+          <li>
+            <a href="vi/nghe-nghiep">Nghề nghiệp</a>
+          </li>
+          <li>
+            <a href="vi/lien-he-voi-chung-toi">Liên hệ</a>
+          </li>
+          <li>
+            <a href="/vi/sitemap">Sitemap</a>
+          </li>
+          <li>
+            <a href="vi/privacy-policy-vn">Chính sách bảo
+              mật</a>
+          </li>
+          <li>
+            <a href="vi/dieu-khoan-su-dung">Điều khoản sử
+              dụng</a>
+          </li>
+          <li>
+            <a href="vi">© 2016 Viettel</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <ul class="list-sitemap">
+            <li class="list-sitemap-title">
+              <a href="vi/ve-viettel">
+                <h6>Về Viettel</h6>
+              </a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/ve-viettel#about-viettel">Về
+                chúng tôi</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/mang-luoi">Mạng lưới </a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/ve-viettel#thuong-hieu">Thương
+                hiệu</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/su-menh-va-gia-tri">Sứ mệnh &amp;
+                Giá trị</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/sang-tao">Sáng tạo vì con người</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/ve-viettel#Ban-lanh-dao">Ban
+                lãnh đạo</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <ul class="list-sitemap">
+            <li class="list-sitemap-title">
+              <a href="vi/giai-phap">
+                <h6>Giải pháp</h6>
+              </a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/khach-hang-ca-nhan">Khách hàng Cá
+                nhân</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/khach-hang-doanh-nghiep">Khách hàng Doanh nghiệp</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/khach-hang-chinh-phu">Khách hàng
+                Chính phủ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <ul class="list-sitemap">
+            <li class="list-sitemap-title">
+              <a href="vi/phat-trien-ben-vung">
+                <h6>Phát triển bền
+                  vững</h6>
+              </a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/vi-con-nguoi">Vì con người</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/vi-xa-hoi">Vì xã hội</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/mang-vien-thong-xanh">Mạng viễn
+                thông xanh</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/post/ra-mat-he-thong-font-chu-lao-do-viettel-tai-tro">Tài trợ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <ul class="list-sitemap">
+            <li class="list-sitemap-title">
+              <a href="vi/nghe-nghiep">
+                <h6>Nghề nghiệp</h6>
+              </a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/working-viettel">Làm việc tại
+                Viettel</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="node/241">Văn hóa công ty</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/nguoi-viettel">Người Viettel</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/co-hoi-nghe-nghiep-fix">Cơ hội
+                nghề nghiệp</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <ul class="list-sitemap">
+            <li class="list-sitemap-title">
+              <a href="vi/tin-tuc">
+                <h6>Tin tức</h6>
+              </a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="vi/cong-bo-thong-tin">Công bố thông
+                tin</a>
+            </li>
+            <li class="list-sitemap-pages">
+              <a href="http://viettel.com.vn/vi/thong-tin-moi-thau">Thông tin đấu thầu</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-2">
+          <ul class="list-sitemap">
+            <li class="list-sitemap-title">
+              <a href="vi/lien-he-voi-chung-toi">
+                <h6>Liên
+                  hệ</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
